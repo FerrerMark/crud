@@ -17,6 +17,7 @@ try {
     } else {
         // Return an error message
         echo json_encode(['error' => 'User not found.']);
+        
     }
 } catch (PDOException $e) {
     // Return an error message

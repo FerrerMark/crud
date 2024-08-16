@@ -55,7 +55,17 @@
 
         <div class="table-container">
             <h1>Delete</h1>
+            <input type="text" id="delete_user_id" class="text" placeholder="user_id">
+            <button type="button" id="delete_submit">submit</button>
             
+            <div id="info">
+                <p id="userId"></p>
+                <p id="fname"></p>
+                <p id="lname"></p>
+                <input type="button" value="delete" id="delete_user">
+            </div>
+            <button type="submit" id="clear">clear</button> 
+            <p id="delete_result"></p>
         </div>
     </div>
     
@@ -64,6 +74,7 @@
     <script src=./js/search.js></script>
     <script src="./js/add.js"></script>
     <script src="./js/edit.js"></script>
+    <script src="./js/delete.js"></script>
     <script>
         retrieve();
         search();

@@ -66,3 +66,13 @@ h1 {
     width: 90%;
     padding: 8px 3px;
 }
+
+#info{
+    text-align: center;
+    margin: 3px 0;
+    display: none;
+}
+
+#info > p {
+    margin: 3px 0;
+}
