@@ -32,9 +32,24 @@ tr,td{
     margin: 4px 5px;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
-}   
+}  
+
+.container > div:nth-child(2){
+    overflow-y: scroll;
+    border: 1px solid black;
+    width: 230px;
+    height: 300px;
+    margin: 4px 5px;
+}  
+
+.container > div:nth-child(2)::-webkit-scrollbar {
+    width: 0px;
+}
+
+.container > div:nth-child(1)::-webkit-scrollbar {
+    width: 0px;
+}
 
 form#addForm {
     padding: 0 12%;
