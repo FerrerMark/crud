@@ -43,6 +43,11 @@ tr,td{
     margin: 4px 5px;
 }  
 
+.container > div:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+}
+
 .container > div:nth-child(2)::-webkit-scrollbar {
     width: 0px;
 }
