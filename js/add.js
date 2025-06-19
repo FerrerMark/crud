@@ -16,7 +16,6 @@ form.addEventListener('submit', async (event) => {
         document.getElementById('response').innerHTML = data;
         console.log(data);
 
-        // Clear the input fields
         const inputs = form.querySelectorAll('input[type="text"]');
         inputs.forEach(input => {
             input.value = '';
